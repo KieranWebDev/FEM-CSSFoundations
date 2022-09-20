@@ -97,7 +97,15 @@ nav h1 [class*='fa-'] {
   color: var(--aqua);
   padding-right: 0.5rem;
 }
-
+.button {
+  background-color: var(--magenta);
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.button:hover {
+  color: var(--white);
+  background-color: var(--hotmag);
+}
 /* nav li {
   display: inline;
   margin-right: 0.5rem;
