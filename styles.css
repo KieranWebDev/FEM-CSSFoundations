@@ -106,6 +106,18 @@ nav h1 [class*='fa-'] {
   color: var(--white);
   background-color: var(--hotmag);
 }
+
+@media (min-width: 850px) {
+  nav {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  nav li:first-child {
+    flex-basis: auto;
+    text-align: left;
+    margin-right: auto;
+  }
+}
 /* nav li {
   display: inline;
   margin-right: 0.5rem;
