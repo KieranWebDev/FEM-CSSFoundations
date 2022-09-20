@@ -46,15 +46,11 @@ a:hover {
   text-decoration: none;
 }
 /* navbar */
+
 nav {
   font-family: var(--mono);
   font-size: 80%;
   padding: 1rem;
-  /* width: 60%;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  margin-top: 3rem; */
 }
 nav h1 a {
   font-family: var(--sans);
@@ -118,19 +114,6 @@ nav h1 [class*='fa-'] {
     margin-right: auto;
   }
 }
-/* nav li {
-  display: inline;
-  margin-right: 0.5rem;
-}
-
-nav a {
-  text-decoration: none;
-  color: var(--white);
-}
-
-nav a:hover {
-  text-decoration: underline;
-} */
 
 /* intro */
 .intro {
@@ -160,9 +143,40 @@ nav a:hover {
   text-align: center;
   padding: 2rem 0;
 }
+.contact-me h3 {
+  font-size: 2.2rem;
+}
 
 .contact-me p {
   width: 35%;
   margin: 0 auto;
   padding: 1rem 0;
+}
+
+/* footer */
+footer {
+  width: 450px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 3rem;
+}
+footer ul {
+  list-style-type: none;
+  padding: 1rem 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+footer h3 {
+  font-size: 2.2rem;
+  padding-bottom: 1.5rem;
+}
+footer [class*='fa-'] {
+  font-size: 200%;
+}
+
+nav [class*='fa-']:hover {
+  color: var(--magenta);
 }
