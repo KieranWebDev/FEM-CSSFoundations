@@ -45,7 +45,31 @@ a:hover {
   color: var(--hotmag);
   text-decoration: none;
 }
+/* navbar */
+nav {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  font-family: var(--mono);
+}
 
+nav li {
+  display: inline;
+  margin-right: 0.5rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* intro */
 .intro {
   padding-bottom: 10rem;
 }
@@ -77,5 +101,5 @@ a:hover {
 .contact-me p {
   width: 35%;
   margin: 0 auto;
-  padding: 1.5rem 0;
+  padding: 1rem 0;
 }
