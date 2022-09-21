@@ -57,6 +57,9 @@ a:hover {
 .plum-background {
   background-color: var(--plum);
 }
+.section-dkblue {
+  background-color: var(--dkblue);
+}
 /* navbar */
 
 nav {
@@ -141,6 +144,18 @@ nav h1 [class*='fa-'] {
   font-size: 4rem;
   font-weight: normal;
 }
+/* projects */
+.projects {
+  padding: 4rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.projects h2 {
+  font-size: 2.5rem;
+  margin-bottom: calc(2.5rem * 1.5);
+}
+
+/* contact me */
 .contact-me {
   max-width: 400px;
   margin: 0 auto;
