@@ -45,6 +45,18 @@ a:hover {
   color: var(--hotmag);
   text-decoration: none;
 }
+/* backgrounds */
+.gradient {
+  background: linear-gradient(
+    93deg,
+    rgba(255, 23, 228, 1) 28%,
+    rgba(134, 251, 251, 1) 71%
+  );
+  height: 3px;
+}
+.plum-background {
+  background-color: var(--plum);
+}
 /* navbar */
 
 nav {
@@ -97,27 +109,20 @@ nav h1 [class*='fa-'] {
   background-color: var(--magenta);
   padding: 0.5rem;
   border-radius: 5px;
+  color: var(--white);
+  font-family: var(--mono);
+  text-decoration: none;
 }
 .button:hover {
   color: var(--white);
   background-color: var(--hotmag);
 }
 
-@media (min-width: 850px) {
-  nav {
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  nav li:first-child {
-    flex-basis: auto;
-    text-align: left;
-    margin-right: auto;
-  }
-}
-
 /* intro */
 .intro {
-  padding-bottom: 10rem;
+  padding: 4rem 1rem 10rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .intro p {
   font-size: 1rem;
@@ -137,9 +142,8 @@ nav h1 [class*='fa-'] {
   font-weight: normal;
 }
 .contact-me {
-  background-color: var(--plum);
-  border-top: 1px solid var(--hotmag);
-  border-bottom: 1px solid var(--hotmag);
+  max-width: 400px;
+  margin: 0 auto;
   text-align: center;
   padding: 2rem 0;
 }
@@ -148,35 +152,44 @@ nav h1 [class*='fa-'] {
 }
 
 .contact-me p {
-  width: 35%;
-  margin: 0 auto;
-  padding: 1rem 0;
+  padding: 1rem 0 2rem 0;
 }
 
 /* footer */
 footer {
-  width: 450px;
+  max-width: 450px;
   margin: 0 auto;
   text-align: center;
   padding: 3rem;
 }
 footer ul {
   list-style-type: none;
-  padding: 1rem 0;
-  margin: 0;
+  padding: 0;
+  margin: 1.5rem 0;
   display: flex;
+  flex-flow: row wrap;
   justify-content: center;
-  gap: 2rem;
+  gap: 3rem;
+  font-size: 200%;
 }
 
 footer h3 {
   font-size: 2.2rem;
-  padding-bottom: 1.5rem;
-}
-footer [class*='fa-'] {
-  font-size: 200%;
 }
 
 nav [class*='fa-']:hover {
   color: var(--magenta);
+}
+
+/* responsive */
+@media (min-width: 850px) {
+  nav {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  nav li:first-child {
+    flex-basis: auto;
+    text-align: left;
+    margin-right: auto;
+  }
 }
