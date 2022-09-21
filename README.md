@@ -2,7 +2,11 @@
 
 # Front End Masters Course - CSS foundations
 
-- I worked through and completed Front End Masters ‘Getting Started With CSS’ course, which was a great way to cement and refresh my CSS fundamentals. I got some reps in with Grid, Flexbox and Media Queries as well as learning a few new tricks such as attribute selectors and the ‘order’ property. The course project was to create a portfolio website, but as I already have one, I created one for the legend that is Bob The Builder, in the hopes of getting him some work and making him relevant once more. You can check out the website below:
+- I worked through and completed Front End Masters ‘Getting Started With CSS’ course, which was a great way to cement and refresh my CSS fundamentals. I got some reps in with Grid, Flexbox and Media Queries as well as learning a few new tricks such as attribute selectors and the ‘order’ property. The course project was to create a portfolio website, but as I already have one, I created one for the legend that is Bob The Builder, in the hopes of getting him some work and making him relevant once more. You can check out the website <a href="https://bob-the-builder-six.vercel.app/" target="_blank" rel="noreferrer">here.</a>
+<p align="center">
+<img src="https://user-images.githubusercontent.com/82081817/191564039-c0c50fe4-1177-4942-99f8-ab20484d0be3.PNG" width="80%" align="center"/>
+</p>
+<a>
 
 ## Takeaways and new tricks learned:
 
